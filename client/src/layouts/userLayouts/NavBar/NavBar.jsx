@@ -39,7 +39,7 @@ export const NavBar = () => {
   return (
     <>
       <AppBar
-        // className="navBarMain"
+        className="navBarMain"
         component="div"
         position="fixed"
         sx={{
@@ -244,7 +244,12 @@ export const NavBar = () => {
             <Box sx={{ display: "flex" }}>
               <Button variant="text">Login</Button>
               <Button
-                sx={{ borderRadius: 7, height: 45, backgroundColor: "#3282AD" }}
+                sx={{
+                  borderRadius: 7,
+                  height: 45,
+                  backgroundColor: "#3282AD",
+                  width: 110,
+                }}
                 variant="contained"
               >
                 Sign Up
